@@ -1,0 +1,18 @@
+
+.add-card{
+  &__card{
+    width: 400px;
+    padding: 20px;
+    padding-right: 30px;
+    height: 300px;
+  }
+
+  &__input {
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+
+  &__add-btn {
+    width: 80px;
+  }
+}

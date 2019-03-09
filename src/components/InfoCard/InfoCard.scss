@@ -1,0 +1,36 @@
+.info-card{
+  &__card {
+    padding: 20px;
+    padding-right:30px;
+    border-radius: 10px 10px 10px 10px !important;
+  }
+
+  &__text-title {
+    margin-top: 20px;
+    padding-bottom: 10px;
+  }
+
+  &__text-title p {
+    font-weight: bold;
+    font-size: 16px !important;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-bottom: 20px;
+  }
+
+  &__text p {
+    font-size: 18px !important;
+  }
+
+  &__view-btn {
+    width: 120px;
+    border-radius: 4px 4px 4px 4px !important;
+  }
+
+  &__details-btn {
+    width: 120px;
+    border-radius: 4px 4px 4px 4px !important;
+  }
+}

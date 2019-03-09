@@ -1,0 +1,29 @@
+[37;40mnpm[0m [0m[32minfo[0m [0m[35mit worked if it ends with[0m ok
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m npm@3.10.10
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35musing[0m node@v6.9.5
+[0m[?25l[[90m..................[0m] - : [32minfo[0m [35musing[0m node@v6.9.5[K[K[?25h[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m eat-sleep-code@0.1.0~prestart: eat-sleep-code@0.1.0
+[0m[37;40mnpm[0m [0m[32minfo[0m [0m[35mlifecycle[0m eat-sleep-code@0.1.0~start: eat-sleep-code@0.1.0
+[0m
+> eat-sleep-code@0.1.0 start /app
+> react-scripts start
+
+[2J[3J[H[36mStarting the development server...[39m
+
+[2J[3J[H[33mCompiled with warnings.[39m
+
+Warning in ./src/index.js
+
+[4m/app/src/index.js[24m
+  [2m22:7[22m   [33mwarning[39m  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  [2mguard-for-in[22m
+  [2m23:9[22m   [33mwarning[39m  Expected an assignment or function call and instead saw an expression                                       [2mno-unused-expressions[22m
+  [2m25:11[22m  [33mwarning[39m  Unexpected use of comma operator                                                                            [2mno-sequences[22m
+  [2m69:7[22m   [33mwarning[39m  The body of a for-in should be wrapped in an if statement to filter unwanted properties from the prototype  [2mguard-for-in[22m
+  [2m92:10[22m  [33mwarning[39m  'bindInputToState' is defined but never used                                                                [2mno-unused-vars[22m
+
+[33m[1m✖ 5 problems (0 errors, 5 warnings)
+[22m[39m
+
+You may use special comments to disable some warnings.
+Use [33m// eslint-disable-next-line[39m to ignore the next line.
+Use [33m/* eslint-disable */[39m to ignore all warnings in a file.
+^C

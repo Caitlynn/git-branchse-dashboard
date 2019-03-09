@@ -1,0 +1,41 @@
+.project-bubbles {
+  &__button {
+    min-width: 304px;
+    height: 50px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white !important;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: left;
+
+    &--building {
+      background-color: #2980b9 !important;
+      animation: 2s linear 0s normal none infinite animate;
+    }
+
+    &--running {
+      background-color: #383838 !important;
+    }
+
+    &--exited {
+      background-color: #B92929 !important;
+    }
+  }
+
+  &__emoji {
+    margin-left: 30px;
+    font-size: 24px;
+    float: right;
+  }
+}
+
+@keyframes animate {
+	0%   {background-color:#2980b9;}
+  20%  {background-color:#7429B9;}
+  40%  {background-color:#B9293D;}
+  60%  {background-color:#CCB125;}
+  80%  {background-color:#29B93C;}
+  100% {background-color:#2980B9;}
+}
